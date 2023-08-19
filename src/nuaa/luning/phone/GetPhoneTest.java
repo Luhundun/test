@@ -10,6 +10,7 @@ public class GetPhoneTest {
         //调用WebService提供的getMobileCodeInfo方法查询手机号码的归属地
         String searchResult = mobileCodeWSSoap.getMobileCodeInfo("13372018629", null);
         String name = "luning";
+        //     输出信息
         System.out.println(name+"的手机号"+searchResult);
     }
 }
